@@ -4,7 +4,7 @@ This is the dcat app provided at https://dart.dev/tutorials/server/cmdline
 
 Here I'll describe the process for creating a console app as described by the article. 
 You can either follow the steps described in this README file, or you can clone this
-repository and skip to the [Get Packages](#Get-Packages) section.
+repository and skip to the [Get Packages](https://github.com/piwesajopo/dart-learn2_dcat#get-packages) section.
 
 ## Creating the app
 
@@ -33,7 +33,8 @@ the future.
 
 Also, we can delete the following file which is not really used in the provided example:
 ```shell
-rm lib/dcat.dart
+# Assuming you previously ran the command: dart create -t console dcat
+rm dcat/lib/dcat.dart
 ```
 
 ## Modifying the entrypoint of the app
@@ -93,7 +94,7 @@ Future<void> _handleError(String path) async {
 }
 ```
 
-## Get Packages {#Get-Packages}
+## Get Packages
 
 In the tutorial they show you how to add the args package to your project by using this command:
 ```shell
